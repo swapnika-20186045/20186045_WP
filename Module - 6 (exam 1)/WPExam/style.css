@@ -1,0 +1,34 @@
+.container {
+    padding-top:10px;
+    padding-bottom: 10%;
+}
+.a {
+    text-align:center;
+    border: 5px solid black;
+    height: 60%;
+    padding-top: 10px;
+}
+.b {
+    background-color:pink;
+    height: 40%;
+    padding-top: 5px;
+    border: 5px solid black;
+}
+.hello {
+    padding-top: 95px;
+}
+.card {
+    width: 20rem;
+    border:0.5px solid black;
+    box-shadow: 10px 10px turquoise;
+}
+#image {
+    border-image: url(images/girl.jpg) 30% round;
+}
+.hr {
+    border-bottom: 5px dashed turquoise;
+    background: turquoise;
+}
+/* @media screen and (max-width: 810px) {
+
+} */

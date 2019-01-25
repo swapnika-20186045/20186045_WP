@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            comment box
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container" >
+            <h2 style="text-align: center">Post your comments!</h2>
+            <form>
+                <div class = "col-4">
+                    <div class="form-group">
+                    <label for="user">Name:</label>
+                    <input type="text" class="form-control" id="user" onclick=checkName()>
+                        <div id = "noname"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Password:</label>
+                        <input type="password" class="form-control" id="pass" onclick=checkPassword()>
+                        <div id ="nopassword"></div>
+                    </div>
+                </div>
+                <div class="form-group; col-12">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="4" cols= "50" id="comment"></textarea>
+                </div>
+            </form>
+            <br>
+                <div class="col-9"></div>
+                <div class="col-3">
+                    <input type="button" class="btn-default" value="Post" onclick=validation()>
+                </div>
+                <div id="valid"></div>
+            </div>
+        </div>
+        <div class="container" >
+            <div id = "allcomments"></div>
+        </div>
+    </body>
+    <script src="commentbox.js"></script>
+</html>

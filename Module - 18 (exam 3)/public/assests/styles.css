@@ -1,0 +1,16 @@
+body{
+    /* background: #0d1521; */
+    font-family: tahoma;
+    /* color: #989898; */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2{
+    color: darkred;
+    text-align: center;
+}
+#product {
+    border: 5px solid black;
+    /* margin-left: 5%; */
+    text-align: center;
+}

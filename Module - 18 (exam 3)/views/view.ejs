@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/public/assests/styles.css">
+        <script src="/public/assests/products.js"></script>
+    </head>
+    <body>
+        <h2>My Product Catalog</h2>
+        <div id="product">
+            <!-- <ul> -->
+                <% for(var i=0;i < product.length;i++) { %>
+                    <br><br>
+                    <b style="color:darkred"> <%= product[i].title %> </b>
+                    <br><br>
+                    <img src="./public/assests/<%= product[i].image %>" alt=" " height="300" width="250">
+                    <p>
+                        <b>Description : </b> <%= product[i].description %>
+                        <br>
+                        <b>Quantity : </b> <%= product[i].quantity %>
+                    </p>
+                    <button type="button" id="edit">Edit</button>
+                    <button type="button">Delete</button>
+                <% } %>
+            <!-- </ul> -->
+        </div>
+    </body>
+</html>
